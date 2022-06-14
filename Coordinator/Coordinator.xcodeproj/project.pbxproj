@@ -17,6 +17,10 @@
 		256369A2285896910034FDF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25636978285896890034FDF8 /* ContentView.swift */; };
 		256369A3285896910034FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25636979285896900034FDF8 /* Assets.xcassets */; };
 		256369A4285896910034FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25636979285896900034FDF8 /* Assets.xcassets */; };
+		256369B72858A1BA0034FDF8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256369B62858A1BA0034FDF8 /* CircleImage.swift */; };
+		256369B82858A1BA0034FDF8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256369B62858A1BA0034FDF8 /* CircleImage.swift */; };
+		256369BA2858A2E20034FDF8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256369B92858A2E20034FDF8 /* MapView.swift */; };
+		256369BB2858A2E20034FDF8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256369B92858A2E20034FDF8 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		25636997285896910034FDF8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2563699B285896910034FDF8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2563699D285896910034FDF8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		256369B62858A1BA0034FDF8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		256369B92858A2E20034FDF8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 				25636977285896890034FDF8 /* CoordinatorApp.swift */,
 				25636978285896890034FDF8 /* ContentView.swift */,
 				25636979285896900034FDF8 /* Assets.xcassets */,
+				256369B62858A1BA0034FDF8 /* CircleImage.swift */,
+				256369B92858A2E20034FDF8 /* MapView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				256369A1285896910034FDF8 /* ContentView.swift in Sources */,
+				256369BA2858A2E20034FDF8 /* MapView.swift in Sources */,
 				2563699F285896910034FDF8 /* CoordinatorApp.swift in Sources */,
+				256369B72858A1BA0034FDF8 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				256369A2285896910034FDF8 /* ContentView.swift in Sources */,
+				256369BB2858A2E20034FDF8 /* MapView.swift in Sources */,
 				256369A0285896910034FDF8 /* CoordinatorApp.swift in Sources */,
+				256369B82858A1BA0034FDF8 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
