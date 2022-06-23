@@ -1,2 +1,2 @@
 #ignore all macos related miscellaneous files
-*.DS_Store
+.DS_Store
